@@ -24,9 +24,5 @@ namespace CoffeeCompanies
             }
                 
         }
-        public override void Save(Customer customer)
-        {
-            base.Save(customer);
-        }
     }
 }

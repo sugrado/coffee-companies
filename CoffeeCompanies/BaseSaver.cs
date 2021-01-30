@@ -6,7 +6,7 @@ namespace CoffeeCompanies
 {
     public abstract class BaseSaver : ISaver
     {
-        public virtual void Save(Customer customer)
+        public void Save(Customer customer)
         {
             Console.WriteLine("Saved: " + customer.FirstName);
         }
